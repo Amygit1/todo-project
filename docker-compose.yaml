@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  project:
+    build: ./app
+    container_name: todo-app
+    ports: 
+      - "5001:5001"
+    volumes:
+      - ./app:/app
+
+  db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      SA_PASSWORD: 12345678Aab
+      ACCEPT_EULA: Y
+    ports:
+      - "1435:1433"

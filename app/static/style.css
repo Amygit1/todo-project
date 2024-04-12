@@ -1,0 +1,164 @@
+
+.form-style-3{
+    text-align: center;
+    width: 450px; 
+    height:600px; 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.form-style-3 label{
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-3 label > span{
+    float: left;
+    width: 100px;
+    color:#333333;
+    font-weight: 200;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.form-style-3 fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #D1D1D1;
+    padding: 20px;
+    background:#FFFFFF;
+    box-shadow: inset 0px 0px 15px #FFE5E5;
+    -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+    -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+.form-style-3 fieldset legend{
+    color: #333333;
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background:#FFFFFF;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px #FFFFFF;
+    -moz-box-shadow:-0px -1px 2px#FFFFFF;
+    -webkit-box-shadow:-0px -1px 2px #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-style-3 textarea{
+    width:250px;
+    height:100px;
+    margin-left: 200px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select, 
+.form-style-3 textarea{
+    border-radius: 4px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 2px solid#D1D1D1;
+    outline: none;
+    color: #437382;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px hsl(265, 7%, 52%);
+    -moz-box-shadow: inset 1px 1px 4px white;
+    -webkit-box-shadow: inset 1px 1px 4px white;
+    background: white;
+    width:50%;
+    font-weight: bold;
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+    background: #372d32;
+    border: 1px solid #D1D1D1;
+    padding: 5px 15px 5px 15px;
+    color:#3498db;
+    box-shadow: inset -1px -1px 3px #413a3d;
+    -moz-box-shadow: inset -1px -1px 3px #FF62A7;
+    -webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;	
+    font-weight: bold;
+}
+.required{
+    color:red;
+    font-weight: 900;
+}
+/* Your existing styles */
+
+.table-style {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-style th, .table-style td {
+    border: 1px solid#D1D1D1;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #E0E0E0;
+    height: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.table-style th {
+    color: #FFFFFF;
+    background-color:#0cb512;
+    border-top: 1px solid #FFD2D2;
+    border-left: 1px solid #FFD2D2;
+    border-right: 1px solid #FFD2D2;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px #F1F1F1;
+    -moz-box-shadow: -0px -1px 2px #F1F1F1;
+    -webkit-box-shadow: -0px -1px 2px #F1F1F1;
+    font-weight: 700;
+    font-size: medium;
+    height: 40px;
+}
+
+
+.checkedHighlight{
+    background-color: #6ce67c;
+}
+button {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+}
+p {
+    display: block; 
+    font-size: xx-large; 
+    font-weight: 900; 
+    color:#1F2D3D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+a {
+    display: inline-block; 
+    text-decoration: none; 
+    border:1px solid black; 
+    color:#eeeeee; 
+    padding: 5px 15px; 
+    border-radius: 3px; 
+    font-weight: bold; 
+    background-color: #3c7194;
+}
